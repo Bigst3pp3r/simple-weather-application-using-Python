@@ -39,7 +39,7 @@ def display_weather(weather_data):
         print("Unable to display weather data.")
 
 if __name__ == "__main__":
-    api_key = "7518055d48946fff7cd590c8c5d97280"  # Replace with your API key
+    api_key = ""  # Replace with your API key
     city = input("Enter city name: ")
 
     weather_data = get_weather(api_key, city)
