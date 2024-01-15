@@ -39,4 +39,5 @@ def index():
     return render_template('index.html')
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    # Bind to external IP address (0.0.0.0) and port 5000
+    app.run(host='0.0.0.0', port=5000, debug=True)
